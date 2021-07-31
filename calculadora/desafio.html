@@ -6,18 +6,29 @@
     <title>Workshop - Desafio</title>
     <link rel="stylesheet" type="text/css" href="css/desafio.css" />
   </head>
+  
   <body>
-    <label for="valor-hora">Valor Hora</label>
-    <input type="number" id="valor-hora" />
 
-    <label for="horas-projeto">Horas Projeto</label>
+    <nav>
+      <img src="img/logotipo-reprograma.png"/>
+    </nav>
+  
+    <header class="cabecalho">
+      <h1 class="cabecalho__titulo">Calculadora Do Valor Total do Projeto </h1>
+    </header>
+
+    <label class="valorHora" for="valor-hora">Valor/Hora</label>
+    <input type="number" id="valor-hora"/>
+
+    <label class="horasProjeto" for="horas-projeto">Horas Necessárias ao Projeto</label>
     <input type="number" id="horas-projeto" />
-
-    <span id="resposta">Resposta</span>
     <button onclick="calcular()">Calcular Projeto</button>
 
-    <a href="index.html">Voltar</a>
+    <span id="resposta">R$ 0,00</span>
+    
+      <a class="volta" href="index.html">Voltar</a>
 
     <script type="text/javascript" src="js/desafio.js"></script>
+
   </body>
 </html>

@@ -1,7 +1,85 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color:#6e388a;
+  font-weight: bolder;
+}
+
 body {
+  background-color: rgb(43, 189, 226);
   display: flex;
   flex-direction: column;
-  flex: 1;
   align-items: center;
-  box-sizing: border-box;
+}
+
+h1{
+  background-color: #7f479b;
+  color: rgb(247, 241, 241);
+  font-size: 20px;
+  height: 22px;
+  border-radius: 5px;
+}
+
+#valor-hora{
+  border-radius: 8px;
+  border-color: aliceblue;
+  width: 10%;
+  text-align: center;
+}
+
+.valorHora{
+  margin: 1.5rem 0 0 0;
+}
+
+#horas-projeto{
+  border-radius: 8px;
+  border-color: aliceblue;
+  width: 10%;
+  text-align: center;
+}
+
+.horasProjeto{
+  margin: 1.5rem 0 0 0;
+}
+
+.volta{
+  margin: 1rem 0 0 0;
+}
+
+#resposta{
+  margin: 2rem 0 0 0;
+  background-color: #82ccdb;
+  border-radius: 5px;
+  font-weight: bolder;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #7f479b;
+}
+
+button {
+  background-color:#7f479b;
+  border: none;
+  text-align: center;
+  text-decoration:none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 20%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 1rem 0 0 0;
+  color:aliceblue
+}
+
+.volta{
+  background-color:#e4d7eb;
+  border: none;
+  text-align: center;
+  text-decoration:none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 4%;
+  height: 20px;
+  border-radius: 5px;
+  color:rgb(138, 15, 168)
 }
